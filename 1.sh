@@ -12,5 +12,6 @@ cd ../../kernel
 git clone https://github.com/EndCredits/kernel_xiaomi_sm7250.git
 cd kernel_xiaomi_sm7250
 chmod 777 build.sh
+curl -LSs "https://raw.githubusercontent.com/tiann/KernelSU/main/kernel/setup.sh" | bash -
 ./build.sh all
 
